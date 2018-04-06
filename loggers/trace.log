@@ -1,0 +1,339 @@
+
+
+ ########## Logger du 12:43:31-06/04/2018 ########## 
+
+ > NORM ~ Example app listening on port 5000   ~ 12:43:31 
+ ------ 
+
+
+ ########## Logger du 13:05:48-06/04/2018 ########## 
+
+ > NORM ~ Example app listening on port 5000   ~ 13:05:48 
+ ------ 
+
+
+ ########## Logger du 13:07:57-06/04/2018 ########## 
+
+ > NORM ~ Example app listening on port 5000 client access to : http://localhost:5000   ~ 13:07:57 
+ ------ 
+
+
+ ########## Logger du 13:08:13-06/04/2018 ########## 
+
+ > NORM ~ Example app listening on port 5000. Client access to : http://localhost:5000   ~ 13:08:13 
+ ------ 
+
+
+ ########## Logger du 13:27:53-06/04/2018 ########## 
+
+ > NORM ~ * Recuperation de la configuration de msapp dans : config.json    ~ 13:27:53 
+ > ERR  ~ Erreur de récupération des paramètres de configuration : vérifiez le contenu du fichier de configuration   ~ 13:27:53 
+ ------ 
+
+
+ ########## Logger du 13:29:24-06/04/2018 ########## 
+
+ > NORM ~ 	 #####  MsApp v1.0  #####    ~ 13:29:24 
+ > NORM ~ * Recuperation de la configuration de msapp dans : config.json    ~ 13:29:24 
+ > ERR  ~ Erreur de récupération des paramètres de configuration : vérifiez le contenu du fichier de configuration   ~ 13:29:24 
+ ------ 
+
+
+ ########## Logger du 13:29:59-06/04/2018 ########## 
+
+ > NORM ~ 	 #####  MsApp v1.0  #####    ~ 13:29:59 
+ > NORM ~ * Recuperation de la configuration de msapp dans : config.json    ~ 13:29:59 
+ > ERR  ~ Erreur de récupération des paramètres de configuration : vérifiez le fichier de configuration   ~ 13:29:59 
+ ------ 
+
+
+ ########## Logger du 13:31:11-06/04/2018 ########## 
+
+ > NORM ~ 	 #####  MsApp v1.0  #####    ~ 13:31:11 
+ > NORM ~ * Recuperation de la configuration de msapp dans : config.json    ~ 13:31:11 
+ > ERR  ~ Impossible de récupérer les paramètres de configuration : vérifiez le fichier de configuration   ~ 13:31:11 
+ ------ 
+
+
+ ########## Logger du 13:32:14-06/04/2018 ########## 
+
+ > NORM ~ 	 #####  MsApp v1.0  #####    ~ 13:32:14 
+ > NORM ~ * Recuperation de la configuration de msapp dans : config.json    ~ 13:32:14 
+ > NORM ~ Example app listening on port 5000. Client access to : http://localhost:5000   ~ 13:32:14 
+ ------ 
+
+
+ ########## Logger du 13:33:21-06/04/2018 ########## 
+
+ > NORM ~ 	 #####  MsApp v1.0  #####    ~ 13:33:21 
+ > NORM ~ * Recuperation de la configuration de msapp dans : config.json    ~ 13:33:21 
+ > SUCC ~ Example app listening on port 5000. Client access to : http://localhost:5000   ~ 13:33:21 
+ ------ 
+
+
+ ########## Logger du 13:35:21-06/04/2018 ########## 
+
+ > NORM ~ 	 #####  MsApp v1.0  #####    ~ 13:35:21 
+ > NORM ~ * Recuperation de la configuration de msapp dans : config.json    ~ 13:35:21 
+ > SUCC ~ Example app listening on port 3000. Client access to : http://localhost:3000   ~ 13:35:21 
+ ------ 
+
+
+ ########## Logger du 13:42:45-06/04/2018 ########## 
+
+ > NORM ~ 	 #####  MsApp v1.0  #####    ~ 13:42:45 
+ > NORM ~ * Recuperation de la configuration de msapp dans : config.json    ~ 13:42:45 
+ > SUCC ~ Example app listening on port 3000. Client access to : http://localhost:3000   ~ 13:42:45 
+ ------ 
+
+
+ ########## Logger du 13:44:10-06/04/2018 ########## 
+
+ > NORM ~ 	 #####  MsApp v1.0  #####    ~ 13:44:10 
+ > NORM ~ * Recuperation de la configuration de msapp dans : config.json    ~ 13:44:10 
+ > SUCC ~ Example app listening on port 3000. Client access to : http://localhost:3000   ~ 13:44:10 
+ ------ 
+
+
+ ########## Logger du 13:44:54-06/04/2018 ########## 
+
+ > NORM ~ 	 #####  MsApp v1.0  #####    ~ 13:44:54 
+ > NORM ~ * Recuperation de la configuration de msapp dans : config.json    ~ 13:44:55 
+ > SUCC ~ Example app listening on port 3000. Client access to : http://localhost:3000   ~ 13:44:55 
+ ------ 
+
+
+ ########## Logger du 13:45:33-06/04/2018 ########## 
+
+ > NORM ~ 	 #####  MsApp v1.0  #####    ~ 13:45:33 
+ > NORM ~ * Recuperation de la configuration de msapp dans : config.json    ~ 13:45:33 
+ > SUCC ~ Example app listening on port 3000. Client access to : http://localhost:3000   ~ 13:45:33 
+ ------ 
+
+
+ ########## Logger du 13:46:11-06/04/2018 ########## 
+
+ > NORM ~ 	 #####  MsApp v1.0  #####    ~ 13:46:11 
+ > NORM ~ * Recuperation de la configuration de msapp dans : config.json    ~ 13:46:11 
+ > SUCC ~ Example app listening on port 3000. Client access to : http://localhost:3000   ~ 13:46:11 
+ ------ 
+
+
+ ########## Logger du 13:46:42-06/04/2018 ########## 
+
+ > NORM ~ 	 #####  MsApp v1.0  #####    ~ 13:46:42 
+ > NORM ~ * Recuperation de la configuration de msapp dans : config.json    ~ 13:46:42 
+ > SUCC ~ Example app listening on port 3000. Client access to : http://localhost:3000   ~ 13:46:42 
+ ------ 
+
+
+ ########## Logger du 13:48:15-06/04/2018 ########## 
+
+ > NORM ~ 	 #####  MsApp v1.0  #####    ~ 13:48:15 
+ > NORM ~ * Recuperation de la configuration de msapp dans : config.json    ~ 13:48:15 
+ > SUCC ~ Example app listening on port 3000. Client access to : http://localhost:3000   ~ 13:48:15 
+ ------ 
+
+
+ ########## Logger du 13:48:42-06/04/2018 ########## 
+
+ > NORM ~ 	 #####  MsApp v1.0  #####    ~ 13:48:42 
+ > NORM ~ * Recuperation de la configuration de msapp dans : config.json    ~ 13:48:42 
+ > SUCC ~ Example app listening on port 3000. Client access to : http://localhost:3000   ~ 13:48:42 
+ ------ 
+
+
+ ########## Logger du 13:54:27-06/04/2018 ########## 
+
+ > NORM ~ 	 #####  MsApp v1.0  #####    ~ 13:54:27 
+ > NORM ~ * Recuperation de la configuration de msapp dans : config.json    ~ 13:54:27 
+ > SUCC ~ Example app listening on port 3000. Client access to : http://localhost:3000   ~ 13:54:27 
+ ------ 
+
+
+ ########## Logger du 13:55:32-06/04/2018 ########## 
+
+ > NORM ~ 	 #####  MsApp v1.0  #####    ~ 13:55:32 
+ > NORM ~ * Recuperation de la configuration de msapp dans : config.json    ~ 13:55:32 
+ > SUCC ~ Example app listening on port 3000. Client access to : http://localhost:3000   ~ 13:55:32 
+ ------ 
+
+
+ ########## Logger du 13:56:13-06/04/2018 ########## 
+
+ > NORM ~ 	 #####  MsApp v1.0  #####    ~ 13:56:13 
+ > NORM ~ * Recuperation de la configuration de msapp dans : config.json    ~ 13:56:13 
+ > ERR  ~ Impossible de récupérer les paramètres de configuration : vérifiez le fichier de configuration   ~ 13:56:14 
+ ------ 
+
+
+ ########## Logger du 14:11:46-06/04/2018 ########## 
+
+ > NORM ~ 	 #####  MsApp v1.0  #####    ~ 14:11:46 
+ > NORM ~ * Recuperation de la configuration de msapp dans : config.json    ~ 14:11:46 
+ > ERR  ~ Impossible de récupérer les paramètres de configuration : vérifiez le fichier de configuration   ~ 14:11:47 
+ ------ 
+
+
+ ########## Logger du 14:12:05-06/04/2018 ########## 
+
+ > NORM ~ 	 #####  MsApp v1.0  #####    ~ 14:12:05 
+ > NORM ~ * Recuperation de la configuration de msapp dans : config.json    ~ 14:12:05 
+ ------ 
+
+
+ ########## Logger du 14:13:21-06/04/2018 ########## 
+
+ > NORM ~ 	 #####  MsApp v1.0  #####    ~ 14:13:21 
+ > NORM ~ * Recuperation de la configuration de msapp dans : config.json    ~ 14:13:21 
+ > SUCC ~ Example app listening on port 3000. Client access to : http://localhost:3000   ~ 14:13:21 
+ ------ 
+
+
+ ########## Logger du 14:14:45-06/04/2018 ########## 
+
+ > NORM ~ 	 #####  MsApp v1.0  #####    ~ 14:14:45 
+ > NORM ~ * Recuperation de la configuration de msapp dans : config.json    ~ 14:14:45 
+ > SUCC ~ Example app listening on port 3000. Client access to : http://localhost:3000   ~ 14:14:45 
+ ------ 
+
+
+ ########## Logger du 14:17:05-06/04/2018 ########## 
+
+ > NORM ~ 	 #####  MsApp v1.0  #####    ~ 14:17:05 
+ > NORM ~ * Recuperation de la configuration de msapp dans : config.json    ~ 14:17:05 
+ > SUCC ~ Example app listening on port 3000. Client access to : http://localhost:3000   ~ 14:17:05 
+ ------ 
+
+
+ ########## Logger du 14:18:05-06/04/2018 ########## 
+
+ > NORM ~ 	 #####  MsApp v1.0  #####    ~ 14:18:05 
+ > NORM ~ * Recuperation de la configuration de msapp dans : config.json    ~ 14:18:05 
+ > SUCC ~ Example app listening on port 3000. Client access to : http://localhost:3000   ~ 14:18:05 
+ ------ 
+
+
+ ########## Logger du 14:18:35-06/04/2018 ########## 
+
+ > NORM ~ 	 #####  MsApp v1.0  #####    ~ 14:18:35 
+ > NORM ~ * Recuperation de la configuration de msapp dans : config.json    ~ 14:18:36 
+ > SUCC ~ Example app listening on port 3000. Client access to : http://localhost:3000   ~ 14:18:36 
+ ------ 
+
+
+ ########## Logger du 14:20:15-06/04/2018 ########## 
+
+ > NORM ~ 	 #####  MsApp v1.0  #####    ~ 14:20:15 
+ > NORM ~ * Recuperation de la configuration de msapp dans : config.json    ~ 14:20:15 
+ ------ 
+
+
+ ########## Logger du 14:20:30-06/04/2018 ########## 
+
+ > NORM ~ 	 #####  MsApp v1.0  #####    ~ 14:20:30 
+ > NORM ~ * Recuperation de la configuration de msapp dans : config.json    ~ 14:20:30 
+ > SUCC ~ Example app listening on port 3000. Client access to : http://localhost:3000   ~ 14:20:31 
+ ------ 
+
+
+ ########## Logger du 14:22:18-06/04/2018 ########## 
+
+ > NORM ~ 	 #####  MsApp v1.0  #####    ~ 14:22:18 
+ > NORM ~ * Recuperation de la configuration de msapp dans : config.json    ~ 14:22:18 
+ > SUCC ~ Example app listening on port 3000. Client access to : http://localhost:3000   ~ 14:22:18 
+ ------ 
+
+
+ ########## Logger du 14:23:21-06/04/2018 ########## 
+
+ > NORM ~ 	 #####  MsApp v1.0  #####    ~ 14:23:22 
+ > NORM ~ * Recuperation de la configuration de msapp dans : config.json    ~ 14:23:22 
+ > SUCC ~ Example app listening on port 3000. Client access to : http://localhost:3000   ~ 14:23:22 
+ ------ 
+
+
+ ########## Logger du 14:23:45-06/04/2018 ########## 
+
+ > NORM ~ 	 #####  MsApp v1.0  #####    ~ 14:23:45 
+ > NORM ~ * Recuperation de la configuration de msapp dans : config.json    ~ 14:23:45 
+ > SUCC ~ Example app listening on port 3000. Client access to : http://localhost:3000   ~ 14:23:45 
+ ------ 
+
+
+ ########## Logger du 14:24:49-06/04/2018 ########## 
+
+ > NORM ~ 	 #####  MsApp v1.0  #####    ~ 14:24:50 
+ > NORM ~ * Recuperation de la configuration de msapp dans : config.json    ~ 14:24:50 
+ > SUCC ~ Example app listening on port 3000. Client access to : http://localhost:3000   ~ 14:24:50 
+ ------ 
+
+
+ ########## Logger du 14:36:35-06/04/2018 ########## 
+
+ > NORM ~ 	 #####  MsApp v1.0  #####    ~ 14:36:35 
+ > NORM ~ * Recuperation de la configuration de msapp dans : config.json    ~ 14:36:35 
+ ------ 
+
+
+ ########## Logger du 14:37:28-06/04/2018 ########## 
+
+ > NORM ~ 	 #####  MsApp v1.0  #####    ~ 14:37:28 
+ > NORM ~ * Recuperation de la configuration de msapp dans : config.json    ~ 14:37:28 
+ > SUCC ~ Example app listening on port 3000. Client access to : http://localhost:3000   ~ 14:37:28 
+ ------ 
+
+
+ ########## Logger du 14:38:19-06/04/2018 ########## 
+
+ > NORM ~ 	 #####  MsApp v1.0  #####    ~ 14:38:20 
+ > NORM ~ * Recuperation de la configuration de msapp dans : config.json    ~ 14:38:20 
+ > SUCC ~ Example app listening on port 3000. Client access to : http://localhost:3000   ~ 14:38:20 
+ ------ 
+
+
+ ########## Logger du 14:39:17-06/04/2018 ########## 
+
+ > NORM ~ 	 #####  MsApp v1.0  #####    ~ 14:39:18 
+ > NORM ~ * Recuperation de la configuration de msapp dans : config.json    ~ 14:39:18 
+ > SUCC ~ Example app listening on port 3000. Client access to : http://localhost:3000   ~ 14:39:18 
+ ------ 
+
+
+ ########## Logger du 14:39:53-06/04/2018 ########## 
+
+ > NORM ~ 	 #####  MsApp v1.0  #####    ~ 14:39:54 
+ > NORM ~ * Recuperation de la configuration de msapp dans : config.json    ~ 14:39:54 
+ > SUCC ~ Example app listening on port 3000. Client access to : http://localhost:3000   ~ 14:39:54 
+ ------ 
+
+
+ ########## Logger du 14:40:49-06/04/2018 ########## 
+
+ > NORM ~ 	 #####  MsApp v1.0  #####    ~ 14:40:49 
+ > NORM ~ * Recuperation de la configuration de msapp dans : config.json    ~ 14:40:49 
+ > SUCC ~ Example app listening on port 3000. Client access to : http://localhost:3000   ~ 14:40:49 
+ ------ 
+
+
+ ########## Logger du 14:42:13-06/04/2018 ########## 
+
+ > NORM ~ 	 #####  MsApp v1.0  #####    ~ 14:42:14 
+ > NORM ~ * Recuperation de la configuration de msapp dans : config.json    ~ 14:42:14 
+ > SUCC ~ Example app listening on port 3000. Client access to : http://localhost:3000   ~ 14:42:14 
+ ------ 
+
+
+ ########## Logger du 14:43:50-06/04/2018 ########## 
+
+ > NORM ~ 	 #####  MsApp v1.0  #####    ~ 14:43:51 
+ > NORM ~ * Recuperation de la configuration de msapp dans : config.json    ~ 14:43:51 
+ > SUCC ~ Example app listening on port 3000. Client access to : http://localhost:3000   ~ 14:43:51 
+ ------ 
+
+
+ ########## Logger du 14:46:42-06/04/2018 ########## 
+
+ > NORM ~ 	 #####  MsApp v1.0  #####    ~ 14:46:42 
+ > NORM ~ * Recuperation de la configuration de msapp dans : config.json    ~ 14:46:42 
+ > SUCC ~ Example app listening on port 3000. Client access to : http://localhost:3000   ~ 14:46:42 

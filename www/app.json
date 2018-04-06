@@ -1,0 +1,9 @@
+{
+	"name":"Dashboard",
+	"defaultLang":"fr",
+	"platform":"web",
+	"socketServerAddr":"http://127.0.0.1:3000",
+	"serverPath":"",
+	"theme":{"bgColor":"#38A9ED","color":"#ffffff","font":"Arial, Helvetica, sans-serif"}
+
+}

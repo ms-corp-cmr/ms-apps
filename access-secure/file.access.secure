@@ -1,0 +1,15 @@
+[
+	{
+		"path":"/files/libs/",
+		"files":[
+			"font-awesome/css/font-awesome-http.min.css",
+			"angular/angular.min.js",
+			"ms-theme/css/ms-theme.css",
+			"angular/angular-translate.min.js",
+			"angular/angular-translate-loader-static-files.js",
+			"jquery/jquery.min.js",
+			"socket/socket.io.js",
+			"ms-theme/js/ms-theme.js"
+		]
+	}
+]
