@@ -7,9 +7,10 @@ class appRoute {
 	start($this){
 
 		$this.app.use($this.express.static($this.pathName + '/www/'));
-		$this.Apps = $this.fs.readdirSync($this.config.apps.path);
-		$this.config.apps.list = [];
+		
 		$this.useFileRecursively = app_route.useFileRecursively;
+		$this.useAppsRecursively = app_route.useAppsRecursively;
+
 		$this.useFileRecursively(0, $this.config.libs, $this);
 	}
 
@@ -24,6 +25,17 @@ class appRoute {
 			
 		}
 		else{
+			$this.useAppsRecursively(0, $this.config.apps.list, $this);
+		}
+	}
+
+	useAppsRecursively(id, tab, $this) {
+		if(id <= tab.length-1){
+			var app = tab[id];
+			$this.app.use(this.express.static(app));
+			this.useAppsRecursively(id+1, tab, $this);
+		}
+		else{
 			$this.app.use($this.express.static($this.config.apps.path));
 
 			$this.app.get('/*', function (req, res) {
@@ -33,14 +45,18 @@ class appRoute {
 				
 				if(path == "")
 					res.sendFile($this.path.join($this.pathName+'/www/index.html'));
-				else if($this.Apps && $this.Apps.indexOf(path.toLowerCase()) >= 0){
+				else if($this.config.apps.list && $this.config.apps.list.indexOf(path.toLowerCase()) >= 0){
 					// Chemin vers une application
+					res.send("hoffer");
 				}
 				else{
 					$this.sendErrorPage(res);
 				}
 
 			});
+
+
+			$this.startServer();
 		}
 	}
 

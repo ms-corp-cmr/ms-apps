@@ -1,0 +1,24 @@
+
+<md-dialog class="cancelDialogStyle scrollbar">
+	<div class="dialog-container" ng-click="$event.stopPropagation()">
+		<div class="title">
+			<span class="text tcolor"> Plus de {{app.menusGadgetsCorrespondences[app.menuRightChoice]}} </span>
+			<i class="fa fa-times" aria-hidden="true" ng-click="hide()"></i>
+		</div>
+		<div class="body">
+			En savoir plus sur les Gadgets
+			{{app}}
+
+			<div style="height: 3000px;background-color: red;"></div>
+			<div style="height: 3000px;background-color: red;"></div>
+			<div style="height: 3000px;background-color: red;"></div>
+			<div style="height: 3000px;background-color: red;"></div>
+
+			<div style="height: 3000px;background-color: yellow;"></div>
+			papa
+		</div>
+		<div class="footer">
+			<md-button class="md-raised" ng-click="hide()">{{"Fermer"|translate}}</md-button>
+		</div>
+	</div>
+</md-dialog>

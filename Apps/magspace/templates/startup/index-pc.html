@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="templates/startup/css/pc/style.css" />
+		<style type="text/css">
+			[class*="col"] { margin-bottom: 20px; }
+			img { width: 100%; }
+			.startup-global-container .row{margin-top:30px;}
+		</style>
+	</head>
+
+	<body>
+
+		<div class="startup-global-container ms-scroll-bar" ng-controller="startup_ctrl" style="background-image:url({{app.backgroundImage}})">
+			<div class="container">
+				<section class="menu-header">
+					<md-menu md-position-mode="target-right target">
+		               <md-button class="rounded-button md-icon-button" ng-click="$mdOpenMenu($event)" style="border-radius: 200px;">
+		               	  <i class="fa fa-bars" aria-hidden="true"></i>
+		               </md-button>
+		               <md-menu-content width="3" >
+		                  <md-menu-item ng-repeat="item in [{name:'actualiser le projet',icon:'fa-refresh'}, {name:'propriétes du projet',icon:'fa-cog'}, {name:'retour sur le site',icon:'fa-home'}]">
+		                     <md-button ng-click="app.menuCenter(item)">
+		                        <div layout="row" style="outline-width: 0px;text-transform: capitalize;">
+		                           <p flex>{{item.name |translate}}</p>   
+		                           <i class="fa {{item.icon}}"  style="font-size: 1.2em;margin-top: 10px;"></i>     				
+		                        </div>
+		                     </md-button>
+		                  </md-menu-item>
+		               </md-menu-content>
+		            </md-menu>
+				</section>
+				<section class="menu-header-guide">
+					<img src="{{app.guide}}" />
+				</section>
+				<section class="row">
+					<div class="tab-container col-xs-12 col-sm-6 col-md-4 col-lg-6">
+						<md-button class="tab" style="background-color:{{app.tabs[0].color}};" ng-click="app.openPage('bureau')">
+							<div class="top tbgColor" style="opacity:1;background-image: url({{app.tabs[0].img}});"></div>
+							<div class="bottom"> {{"accueil"|translate}}</div>
+						</md-button>
+					</div>
+					<div class="tab-container col-xs-12 col-sm-6 col-md-4 col-lg-3">
+						<md-button class="tab" style="background-color:{{app.tabs[1].color}}" ng-click="app.openPage('documents')">
+							<div class="top tbgColor" style="background-image: url({{app.tabs[1].img}});background-size:100% 120%;background-position: center center"></div>
+							<div class="bottom"> {{"documents"|translate}}</div>
+						</md-button>
+					</div>
+					<div class="tab-container col-xs-12 col-sm-6 col-md-4 col-lg-3">
+						<md-button class="tab" style="background-color:{{app.tabs[2].color}}">
+							<div class="top tbgColor" style="background-image: url({{app.tabs[2].img}});background-size:40% 60%;background-repeat: no-repeat;background-position: center center"></div>
+							<div class="bottom"> {{"photos"|translate}}</div>
+						</md-button>
+					</div>
+				</section>
+				<section class="row">
+					<div class="tab-container col-xs-12 col-sm-6 col-md-4 col-lg-3">
+						<md-button class="tab" style="background-color:{{app.tabs[3].color}}">
+							<div class="top tbgColor" style="background-image: url({{app.tabs[3].img}});background-size:150px 150px;background-repeat: no-repeat;background-position: center center"></div>
+							<div class="bottom"> {{"contacts"|translate}}</div>
+						</md-button>
+					</div>
+					<div class="tab-container col-xs-12 col-sm-6 col-md-4 col-lg-6">
+						<md-button class="tab" style="background-color:{{app.tabs[4].color}}">
+							<div class="top tbgColor" style="background-image: url({{app.tabs[4].img}});background-size:300px 100%;background-repeat: no-repeat;"></div>
+							<div class="bottom"> {{"apps"|translate}}</div>
+						</md-button>
+					</div>
+					<div class="tab-container col-xs-12 col-sm-6 col-md-4 col-lg-3">
+						<md-button class="tab" style="background-color:{{app.tabs[5].color}}">
+							<div class="top tbgColor" style="background-image: url({{app.tabs[5].img}});background-size:40% 60%;background-repeat: no-repeat;background-position: center center"></div>
+							<div class="bottom"> {{"audios"|translate}}</div>
+						</md-button>
+					</div>
+				</section>
+				<section class="row">
+					<div class="tab-container col-xs-12 col-sm-6 col-md-4 col-lg-3">
+						<md-button class="tab" style="background-color:{{app.tabs[6].color}}">
+							<div class="top tbgColor" style="background-image: url({{app.tabs[6].img}});background-size:40% 60%;background-repeat: no-repeat;background-position: center center"></div>
+							<div class="bottom"> {{"actus"|translate}}</div>
+						</md-button>
+					</div>
+					<div class="tab-container col-xs-12 col-sm-6 col-md-4 col-lg-3">
+						<md-button class="tab" style="background-color:{{app.tabs[7].color}}">
+							<div class="top tbgColor" style="background-image: url({{app.tabs[7].img}});background-size:40% 55%;background-repeat: no-repeat;background-position: center center"></div>
+							<div class="bottom"> {{"vidéos"|translate}}</div>
+						</md-button>
+					</div>
+					<div class="tab-container col-xs-12 col-sm-6 col-md-4 col-lg-6">
+						<md-button class="tab" style="background-color:{{app.tabs[8].color}}">
+							<div class="top tbgColor" style="background-image: url({{app.tabs[8].img}});background-color:#FFFFFF;background-size:300px 200px;"></div>
+							<div class="bottom"> {{"Ms Creator"|translate}}</div>
+						</md-button>
+					</div>
+				</section>
+				
+			</div>
+
+			<div ng-init="app.init()"></div>
+		</div>
+	</body>
+</html>

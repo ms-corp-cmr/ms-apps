@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="templates/welcome/css/pc/style.css" />
+		<style type="text/css">
+			[class*="col"] { margin-bottom: 20px; }
+			img { width: 100%; }
+			.welcome-global-container .row{margin-top:0px;display: auto;}
+		</style>
+	</head>
+
+	<body>
+		<div class="welcome-global-container ms-scroll-bar" ng-controller="welcome_ctrl">
+			<div class="container-fluid">
+				<section class="row">
+					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 header tbgColor tcolor">
+						<div class="title">{{"bienvenue sur "|translate}} {{app.appName}} | {{app.appVerion}}</div>
+						<div class="options"  ng-init ="menu = 'nouveau'">
+							<md-button class="md-primary menu" ng-click="menu = 'nouveau'">{{"nouveau"|translate}}</md-button>
+							<md-button class="md-primary menu" ng-click="menu = 'mes projets'">{{"mes projets"|translate}}</md-button>
+							<div class="user-logon" ng-click="app.openProfile($event)">
+								<md-button class="md-icon-button"><i class="fa fa-user-circle"></i></md-button>
+							</div>
+						</div>
+					</div>
+				</section>
+				
+				<section class="row ms-animShow-fade" ng-show="menu == 'nouveau' || menu == ''">
+					<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3" >
+						<md-button class="element-list" ng-click="app.enterEdit('new', 'nouveau')">
+							<div class="top tbgColor"></div>
+							<div class="bottom tcolor"> 
+								<i class="fa fa-plus"></i> 
+								<span ng-show="appRoot.mode == 'application'">{{"nouveau"|translate}} {{"projet"|translate}}</span>
+								<span ng-show="appRoot.mode == 'game2d'">{{"nouveau"|translate}} {{"Game 2D"|translate}}</span>
+								<span ng-show="appRoot.mode == 'game3d'">{{"nouveau"|translate}} {{"Game 3D"|translate}}</span>
+								<span ng-show="appRoot.mode == 'animation2d'">{{"nouvelle"|translate}} {{"animation 2D"|translate}}</span>
+							</div>
+						</md-button>
+					</div>
+				</section>
+
+				<section class="row separation" ng-show="menu == ''">
+					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"></div>
+					<span class="title tcolor">{{"Vos projets"|translate}}</span>
+				</section>
+
+				<section class="row ms-animShow-fade" ng-show="menu == 'mes projets' || menu == ''" ng-init="menu = ''">
+					<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3" ng-repeat="project in [1,2,3,4,5,6,7,8,9,10]" ng-click="app.enterEdit('projet',project)">
+							<md-button class="element-list">
+								<div class="top tbgColor"></div>
+								<div class="bottom tcolor"> dddddddddd</div>
+							</md-button>
+					</div>
+				</section>
+				
+			</div>
+
+			<div ng-init="app.init()"></div>
+		</div>
+	</body>
+</html>

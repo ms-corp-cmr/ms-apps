@@ -1,0 +1,12 @@
+{
+	"name":"MS Creator",
+	"version":"1.0",
+	"defaultLang":"fr",
+	"platform":"web",
+	"socketServerAddr":"http://127.0.0.1:3000",
+	"serverPath":"libs/",
+	"icon":"img/connect-success.png",
+	"theme":{"bgColor":"#FFFFFF","color":"#2975FF","font":"Arial, Helvetica, sans-serif","scrollColor":"#0ae","scrollBgColor":"#F5F5F5"},
+	"pc-configs":{"min-width":"600","min-height":"500","maximized":false,"frame":false,"has-shadow":true},
+	"header-configs":{"bgColor":"red","color":"white","position":"top"}
+}

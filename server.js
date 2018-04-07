@@ -28,15 +28,13 @@ class MsApp {
 		try{
 			$this.config = $this.fs.readFileSync($this.pathName+'/config.json', {"encoding":"utf8","flag":"a+"});
 			$this.config = JSON.parse($this.config.toString());
-			$this.config.libs = $this.browseDir.browseFiles("files/libs");
-			
 		}catch(err){ 
 		    $this.logger.log("Impossible de récupérer les paramètres de configuration : vérifiez le fichier de configuration","error");
 		}
 
+		$this.config.libs = $this.browseDir.browseFiles("files/libs");
+		$this.config.apps.list = $this.fs.readdirSync($this.path.join($this.pathName+"/"+$this.config.apps.path));
 		$this.getRoutes();
-		$this.startServer();
-		
 	}
 
 	getRoutes() {
